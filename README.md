@@ -2,6 +2,17 @@
 
 > На основе видео: https://www.youtube.com/watch?v=c9rBxIKFiow
 
+## Установка плагина для Claude Code
+
+```
+/plugin marketplace add azdaev/ru-pd-compliance
+/plugin install pd-compliance@ru-compliance
+```
+
+После установки запусти `/pd-compliance` в любом проекте — Claude просканирует код и выдаст отчёт с нарушениями, штрафами и рекомендациями.
+
+---
+
 ## TL;DR
 
 Если у тебя есть сайт и ты собираешь хоть какие-то данные пользователей (имя, телефон, email, даже просто куки) — ты обязан:
@@ -15,8 +26,6 @@
 7. **Зарегистрироваться в Роскомнадзоре** — [pd.rkn.gov.ru](https://pd.rkn.gov.ru/)
 
 > **Сгенерировать документы:** [privacy-generator.ru](https://privacy-generator.ru/) — бесплатный конструктор по 152-ФЗ, заполняешь форму — получаешь готовый документ за 2 минуты.
-
-> **Автоматический аудит:** если используешь [Claude Code](https://claude.ai/claude-code) — скопируй папку `.claude/commands/` из этого репо в свой проект и запусти `/pd-compliance`. Claude просканирует кодовую базу и покажет, что нарушено и где.
 
 ---
 

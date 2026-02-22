@@ -1,0 +1,19 @@
+{
+  "name": "ru-compliance",
+  "owner": {
+    "name": "azdaev"
+  },
+  "metadata": {
+    "description": "Плагины для проверки соответствия российскому законодательству"
+  },
+  "plugins": [
+    {
+      "name": "pd-compliance",
+      "source": "./",
+      "description": "Аудит проекта на соответствие 152-ФЗ (закон о персональных данных). Сканирует код на зарубежные сервисы, формы, куки-баннеры, хостинг и авторизацию.",
+      "version": "1.0.0",
+      "keywords": ["152-fz", "personal-data", "compliance", "russia", "audit"],
+      "category": "compliance"
+    }
+  ]
+}
